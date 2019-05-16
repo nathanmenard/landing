@@ -1,7 +1,8 @@
 .three-rows-banner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 30px 0;
+  flex-wrap: wrap;
 }
 
 .three-row {
@@ -12,6 +13,7 @@
   padding: 20px;
   border: 1px solid rgb(230,230,230);
 }
+
 .three-row img {
   height: 100px;
 }
